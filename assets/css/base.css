@@ -1,0 +1,87 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --blue-color: #0095f6;
+    --border-color: #DBDBDB ;
+
+    --header-height: 60px;
+    --navbar-height: 34px;
+}
+
+*{
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.bold-5{
+    color: var(--text-color);
+    font-weight: 500;
+}
+.ml-2{
+    margin-left: 2px;
+}
+
+
+/* Animation */
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+
+
+/* Button */
+.btn{
+    min-width: unset;
+    height: 30px;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    padding: 0 12px;
+    outline: none;
+    cursor: pointer;
+    color: var(--text-color);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    line-height: .6rem;
+}
+
+
+.btn.btn--size-s{
+    height: 30px;
+    padding: 0 8px;
+    font-size: 1.2rem;
+}
+
+.btn.btn-primary{
+    color: var(--white-color);
+    background-color: var(--blue-color);
+}
+
+.validation{
+    margin: 0 4px;
+    color: var(--blue-color);
+    position: relative;
+    font-size: 2rem;
+}
+
+.validation__check{
+    position: absolute;
+    top: 25%;
+    color: var(--white-color);
+    left: 25%;
+    font-size: 1.1rem;
+}

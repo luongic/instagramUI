@@ -1,0 +1,123 @@
+/* Mobile && Tablet */
+
+@media(max-width: 1023px){
+    
+}
+
+/* Tablet */
+
+@media (min-width: 740px) and (max-width: 1023px){
+    .post{
+        margin-bottom: 6px;
+        width: 33.3333%;
+    }
+    
+    .post__wrap{
+        width: 100%;
+        height: 0;
+        padding: 0 12px;
+        padding-bottom: 100%;
+    }
+    
+    .post__img{
+        width: 100%;
+        height: 309px;
+        object-fit: cover;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 739px){
+    .hide-on-mobile{
+        display: none;
+    }
+
+
+    .main-header__content-wrap-out-img{
+        width: 84px;
+        height: 84px;
+    }
+
+    .main-header__content img{
+        width: 77px;
+        height: 77px;
+    }
+
+    .main-header__info-wrap-top{
+        flex-wrap: wrap;
+    }
+    .main-header__info-name{
+        flex: 100%;
+        margin-bottom: 20px;
+    }
+
+    .main-header__info-wrap-mid{
+        margin-top: 10px;
+    }
+    .main-header__contact{
+        transform: translateX(-35%);
+    }
+    .main-header__contact-item{
+        padding: 1px 0;
+    }
+
+    .highlight__list {
+        height: 154px;
+        width: 100%;
+        padding: 5px 20px;
+        margin-left: -40px;
+    }
+
+    .highlight__item {
+        width: unset;
+        padding: 10px 16px;
+    }
+
+    .highlight__item-img{
+        width: 62px;
+        height: 62px;
+    }
+
+    .highlight__item-image{
+        width: 58px;
+        height: 58px;
+    }
+    .highlight__item-name{
+        font-size: 1rem;
+    }
+
+    .content__bar{
+        margin: 0;
+        padding: 0 12px;
+    }
+
+    .content__bar-list {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .main-content{
+        margin: 0 -18px;
+    }
+
+    .post{
+        margin-bottom: 0;
+    }
+    
+    .post__wrap{
+        width: 100%;
+        height: 0;
+        padding: 0 2px;
+        padding-bottom: 100%;
+    }
+    
+    .post__img{
+        padding-top: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+    }
+
+}
+
