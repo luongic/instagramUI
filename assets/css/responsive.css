@@ -111,12 +111,21 @@
         padding: 0 2px;
         padding-bottom: 100%;
     }
+
+
     
     .post__img{
         padding-top: 100%;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top center;
+    }
+
+    .post__img::before{
+        top: 0;
+        right: 2px;
+        left: 2px;
+        bottom: 4px;
     }
 
 }
