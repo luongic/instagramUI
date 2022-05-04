@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
+    
 </head>
 <body>
     <div class="app">
@@ -32,7 +33,15 @@
                         </li>
                         <li class="header__navbar-item">
                             <div class="header__navbar-search hide-on-mobile">
+
                                 <input type="text" class="header__navbar-search-input" placeholder="Tìm kiếm">
+                                <i class="header__navbar-search-input-close fas fa-times-circle"></i>
+                                
+                                <div class="header__navbar-search-overlay">
+                                    <i class="header__navbar-search-overlay-icon fas fa-magnifying-glass"></i>
+                                    <span>Tìm kiếm</span>
+                                </div>
+                                
                                 <div class="search__history">
                                     <div class="search__heading">
                                         <span class="search__heading-label">Gần đây</span>
@@ -114,7 +123,7 @@
                                     </svg>
                                 </li>
                                 <li class="header__navbar-func-item">
-                                    <label for="user__menu-label">
+                                    <label for="user__menu-label" class="user__label">
                                         <img class="header__navbar-func-item-user" src="./assets/img/avt.jpg" alt="">
                                     </label>
 
@@ -280,6 +289,29 @@
                     </div>
                 </div>
 
+            </div>
+
+            <div class="mobile-follow">
+                <div class="mobile-follow__bar">
+                    <ul class="mobile-follow__list">
+
+                        <li class="mobile-follow__item ">
+                            <span class="mobile-follow__count">655</span>
+                            <span class="">bài viết</span>
+                        </li>
+
+                        <li class="mobile-follow__item">
+                            <span class="mobile-follow__count">13.3m</span>
+                            <span class="">người theo dõi</span>
+                        </li>
+
+                        <li class="mobile-follow__item">
+                            <span class="">Đang theo dõi</span>
+                            <span class="mobile-follow__count">4</span>
+                            <span class="">người dùng</span>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
             <div class="content__heading">
@@ -538,4 +570,5 @@
     </div>
     
 </body>
+<script src="./main.js"></script>
 </html>

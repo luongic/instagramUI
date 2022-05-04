@@ -24,6 +24,9 @@
         height: 0;
         object-fit: cover;
     }
+    .header__navbar-search-input{
+        width: unset;
+    }
 }
 
 /* Mobile */
@@ -87,6 +90,10 @@
     }
     .highlight__item-name{
         font-size: 1rem;
+    }
+
+    .mobile-follow{
+        display: flex;
     }
 
     .content__heading{
