@@ -35,6 +35,7 @@
 
 .header__navbar-item{
     flex: 1;
+    cursor: pointer;
 }
 
 .header__navbar-logo{
@@ -177,6 +178,9 @@
     color: #8e8e8e;
 }
 
+.navbar__activity-feed{
+    position: relative;
+}
 
 .header__navbar-func{
     padding-left: 0;

@@ -173,5 +173,13 @@
         bottom: 4px;
     }
 
+    .post__wrap-interac-list {
+        font-size: 1.2rem;
+    }
+
+    .post__wrap-like{
+        margin-right: 15px;
+    }
+
 }
 
