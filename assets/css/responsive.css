@@ -67,6 +67,12 @@
         padding: 1px 0;
     }
 
+    .navbar__activity-menu{
+        width: 100vw;
+        height: 50vh;
+        right: -58px;
+    }
+
     .highlight__list {
         height: 154px;
         width: 100%;
@@ -156,8 +162,6 @@
         padding: 0 2px;
         padding-bottom: 100%;
     }
-
-
     
     .post__img{
         padding-top: 100%;
