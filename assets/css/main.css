@@ -190,7 +190,7 @@ label.active__label{
     position: absolute;
     top: 32px;
     right: -46px;
-    max-width: 500px;
+    width: 500px;
     height: 362px;
     overflow: hidden auto;
     background: var(--white-color);
