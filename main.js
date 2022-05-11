@@ -2,13 +2,24 @@
 const checkBoxUser = document.querySelector('.user__menu-label')
 const labelUser = document.querySelector('.user__label')
 
+// closing menu active feed
+const checkBoxActive = document.querySelector('.active__menu-label')
+const labelActive = document.querySelector('.active__label')
+
 labelUser.onclick = (event) => {
+    event.stopPropagation();
+}
+
+labelActive.onclick = (event) => {
     event.stopPropagation();
 }
 
 document.onclick = () => {
     if (checkBoxUser.checked){
         labelUser.click();
+    }
+    if (checkBoxActive.checked){
+        labelActive.click();
     }
 }
 
